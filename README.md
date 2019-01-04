@@ -7,29 +7,22 @@
 
 ### Links and Resources
 * [repo](https://github.com/CaityHeath/09-socket.io-ns)
+* [logger](https://pmww0ww42q.codesandbox.io/)
 
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `app.js`
+##### emits next-number and next-letter
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+### `server.js`
+#### socket.io server that hears the events next-number and next-letter in the numbers and letters nameplaces and emits 4 events to the React logger
 
 ### Setup
 * `npm i` to install node package dependencies.  
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `node server.js`
+* `node app.js`
+* https://pmww0ww42q.codesandbox.io/ open this link on your browser and the events should begin to log.
 
 
-
-#### UML
-Link to an image of the UML for your application and response to events
