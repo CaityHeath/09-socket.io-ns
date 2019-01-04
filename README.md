@@ -1,15 +1,13 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Socket.io-ns
 
-### Author: Student/Group Name
+### Author: Caity Heath 
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/CaityHeath/09-socket.io-ns)
+
 
 ### Modules
 #### `modulename.js`
@@ -22,9 +20,7 @@ Usage Notes or examples
 Usage Notes or examples
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `npm i` to install node package dependencies.  
 
 #### Running the app
 * `npm start`
@@ -33,10 +29,7 @@ Usage Notes or examples
 * Endpoint: `/bing/zing/`
   * Returns a JSON object with xyz in it.
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+
 
 #### UML
 Link to an image of the UML for your application and response to events
